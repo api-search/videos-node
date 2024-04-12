@@ -1,1 +1,2 @@
-# videos
+## Payments
+A Payments APIs index.
