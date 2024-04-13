@@ -1,3 +1,4 @@
+---
 name: Zoom
 description: >-
   This is a starter APIs.json that you can use to learn the specification and
@@ -70,3 +71,4 @@ overlays:
   - type: API Evangelist Ratings
     url: overlays/apis-io-search.yml
 aid: zoom
+---
