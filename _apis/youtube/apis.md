@@ -27,11 +27,7 @@ apis:
       - type: Documentation
         url: https://developers.google.com/youtube/v3/docs
       - type: OpenAPI
-        url: https://api.apis.guru/v2/specs/googleapis.com/youtube/v3/openapi.yaml
-    overlays:
-      - type: APIs.io Search
-        url: >-
-          overlays/https://api.apis.guru/v2/specs/googleapis.com/youtube/v3/openapi.yaml-openapi-search.yml
+        url: properties/youtube-data-openapi-original.yml
     aid: youtube:youtube-data-api
   - name: Youtube Analytics API
     description: >-
@@ -46,12 +42,7 @@ apis:
       - type: Documentation
         url: https://developers.google.com/youtube/analytics/reference
       - type: OpenAPI
-        url: >-
-          https://api.apis.guru/v2/specs/googleapis.com/youtubeAnalytics/v1/openapi.yaml
-    overlays:
-      - type: APIs.io Search
-        url: >-
-          overlays/https://api.apis.guru/v2/specs/googleapis.com/youtubeAnalytics/v1/openapi.yaml-openapi-search.yml
+        url: properties/youtube-analytics-openapi-original.yml
     aid: youtube:youtube-analytics-api
 common:
   - type: Bugs

@@ -18,10 +18,11 @@ apis:
       API. The API also supports methods to insert, update, or delete many of
       these resources.
     tags: []
-    overlays:
-      - type: APIs.io Search
-        url: >-
-          overlays/https://api.apis.guru/v2/specs/googleapis.com/youtube/v3/openapi.yaml-openapi-search.yml
+    properties:
+      - type: Documentation
+        url: https://developers.google.com/youtube/v3/docs
+      - type: OpenAPI
+        url: properties/youtube-data-openapi-original.yml    
     aid: youtube:youtube-data-api
   - name: Youtube Analytics API
     description: >-
@@ -29,11 +30,11 @@ apis:
       Analytics data to automate complex reporting tasks, build custom
       dashboards, and much more.
     tags: []
-    overlays:
-      - type: APIs.io Search
-        url: >-
-          overlays/https://api.apis.guru/v2/specs/googleapis.com/youtubeAnalytics/v1/openapi.yaml-openapi-search.yml
-    aid: youtube:youtube-analytics-api
+    properties:
+      - type: Documentation
+        url: https://developers.google.com/youtube/analytics/reference
+      - type: OpenAPI
+        url: properties/youtube-analytics-openapi-original.yml
 maintainers:
   - FN: API Evangelist
     url: https://apievangelist.com

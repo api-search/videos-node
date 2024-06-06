@@ -13,10 +13,11 @@ apis:
       Our REST APIs are organized based on Zoom product, but the base URL for
       all Zoom REST API requests is https://api.zoom.us/v2/ across products.
     tags: []
-    overlays:
-      - type: APIs.io Search
-        url: >-
-          overlays/https://raw.githubusercontent.com/zoom/api-v1/5478bfe304a827f97acfed9aa5a0ba840b8d1aa9/openapi.v2.json-openapi-search.yml
+    properties:
+      - type: Documentation
+        url: https://developers.zoom.us/docs/api/#rest-apis
+      - type: OpenAPI
+        url: properties/zoom-openapi-original.yml
     aid: zoom:zoom-rest-api
   - name: Zoom GraphQL API
     description: >-
