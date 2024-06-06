@@ -8,7 +8,7 @@ modified: 2024/04/14
 specificationVersion: '0.16'
 tags: []
 apis:
-  - name: Zoom REST API
+  - name: Zoom Rest API
     description: >-
       Our REST APIs are organized based on Zoom product, but the base URL for
       all Zoom REST API requests is https://api.zoom.us/v2/ across products.
@@ -27,7 +27,7 @@ apis:
     tags: []
     overlays: []
     aid: zoom:zoom-graphql-api
-  - name: ' chat/'
+  - name: Zoom Chat API
     description: Needs description.
     tags: []
     properties:
@@ -36,7 +36,7 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/zoom-chat--openapi-search.yml
-  - name: ' group/'
+  - name: Zoom Group API
     description: Needs description.
     tags: []
     properties:
@@ -45,7 +45,7 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/zoom-group--openapi-search.yml
-  - name: ' device/'
+  - name: Zoom Device API
     description: Needs description.
     tags: []
     properties:
@@ -54,7 +54,7 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/zoom-device--openapi-search.yml
-  - name: ' im/'
+  - name: Zoom Instant Message API
     description: Needs description.
     tags: []
     properties:
@@ -63,7 +63,7 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/zoom-im--openapi-search.yml
-  - name: ' account/'
+  - name: Zoom Account API
     description: Needs description.
     tags: []
     properties:
@@ -72,7 +72,7 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/zoom-account--openapi-search.yml
-  - name: ' recording/'
+  - name: Zoom Recording API
     description: Needs description.
     tags: []
     properties:
@@ -81,7 +81,7 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/zoom-recording--openapi-search.yml
-  - name: ' meeting/'
+  - name: Zoom Meeting API
     description: Needs description.
     tags: []
     properties:
@@ -90,7 +90,7 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/zoom-meeting--openapi-search.yml
-  - name: ' metrics/'
+  - name: Zoom Metrics API
     description: Needs description.
     tags: []
     properties:
@@ -99,7 +99,7 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/zoom-metrics--openapi-search.yml
-  - name: ' recording/'
+  - name: Zoom Recording API
     description: Needs description.
     tags: []
     properties:
@@ -108,7 +108,7 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/zoom-recording--openapi-search.yml
-  - name: ' report/'
+  - name: Zoom Report API
     description: Needs description.
     tags: []
     properties:
@@ -117,7 +117,7 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/zoom-report--openapi-search.yml
-  - name: ' user/'
+  - name: Zoom User API
     description: Needs description.
     tags: []
     properties:
@@ -126,7 +126,7 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/zoom-user--openapi-search.yml
-  - name: ' webinar/'
+  - name: Zoom Webinar API
     description: Needs description.
     tags: []
     properties:
