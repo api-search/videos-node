@@ -38,6 +38,114 @@ apis:
         url: https://developers.zoom.us/docs/api/graphql/overview/
     overlays: []
     aid: zoom:zoom-graphql-api
+  - name: ' chat/'
+    description: Needs description.
+    tags: []
+    properties:
+      - type: OpenAPI
+        url: properties/zoom-chat--openapi-original.yml
+    overlays:
+      - type: OpenAPI
+        url: overlays/zoom-chat--openapi-search.yml
+  - name: ' group/'
+    description: Needs description.
+    tags: []
+    properties:
+      - type: OpenAPI
+        url: properties/zoom-group--openapi-original.yml
+    overlays:
+      - type: OpenAPI
+        url: overlays/zoom-group--openapi-search.yml
+  - name: ' device/'
+    description: Needs description.
+    tags: []
+    properties:
+      - type: OpenAPI
+        url: properties/zoom-device--openapi-original.yml
+    overlays:
+      - type: OpenAPI
+        url: overlays/zoom-device--openapi-search.yml
+  - name: ' im/'
+    description: Needs description.
+    tags: []
+    properties:
+      - type: OpenAPI
+        url: properties/zoom-im--openapi-original.yml
+    overlays:
+      - type: OpenAPI
+        url: overlays/zoom-im--openapi-search.yml
+  - name: ' account/'
+    description: Needs description.
+    tags: []
+    properties:
+      - type: OpenAPI
+        url: properties/zoom-account--openapi-original.yml
+    overlays:
+      - type: OpenAPI
+        url: overlays/zoom-account--openapi-search.yml
+  - name: ' recording/'
+    description: Needs description.
+    tags: []
+    properties:
+      - type: OpenAPI
+        url: properties/zoom-recording--openapi-original.yml
+    overlays:
+      - type: OpenAPI
+        url: overlays/zoom-recording--openapi-search.yml
+  - name: ' meeting/'
+    description: Needs description.
+    tags: []
+    properties:
+      - type: OpenAPI
+        url: properties/zoom-meeting--openapi-original.yml
+    overlays:
+      - type: OpenAPI
+        url: overlays/zoom-meeting--openapi-search.yml
+  - name: ' metrics/'
+    description: Needs description.
+    tags: []
+    properties:
+      - type: OpenAPI
+        url: properties/zoom-metrics--openapi-original.yml
+    overlays:
+      - type: OpenAPI
+        url: overlays/zoom-metrics--openapi-search.yml
+  - name: ' recording/'
+    description: Needs description.
+    tags: []
+    properties:
+      - type: OpenAPI
+        url: properties/zoom-recording--openapi-original.yml
+    overlays:
+      - type: OpenAPI
+        url: overlays/zoom-recording--openapi-search.yml
+  - name: ' report/'
+    description: Needs description.
+    tags: []
+    properties:
+      - type: OpenAPI
+        url: properties/zoom-report--openapi-original.yml
+    overlays:
+      - type: OpenAPI
+        url: overlays/zoom-report--openapi-search.yml
+  - name: ' user/'
+    description: Needs description.
+    tags: []
+    properties:
+      - type: OpenAPI
+        url: properties/zoom-user--openapi-original.yml
+    overlays:
+      - type: OpenAPI
+        url: overlays/zoom-user--openapi-search.yml
+  - name: ' webinar/'
+    description: Needs description.
+    tags: []
+    properties:
+      - type: OpenAPI
+        url: properties/zoom-webinar--openapi-original.yml
+    overlays:
+      - type: OpenAPI
+        url: overlays/zoom-webinar--openapi-search.yml
 common:
   - type: Blog
     url: https://developers.zoom.us/blog/
@@ -66,4 +174,5 @@ overlays:
   - type: API Evangelist Ratings
     url: overlays/apis-io-search.yml
 aid: zoom
+
 ---
