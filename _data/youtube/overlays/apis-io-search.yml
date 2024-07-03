@@ -6,8 +6,8 @@ description: >-
   messsages. The API is also able to upload videos.
 url: https://raw.githubusercontent.com/apis-json/artisanal/main/apis/youtube.yml
 created: 2024/04/14
-modified: 2024/04/14
-specificationVersion: '0.14'
+modified: '2024-07-03'
+specificationVersion: '0.18'
 tags: []
 apis:
   - name: Youtube Data API
@@ -85,8 +85,13 @@ apis:
         url: https://developers.google.com/youtube/analytics/reference
       - type: OpenAPI
         url: properties/youtube-analytics-openapi-original.yml
+    aid: youtube:youtube-analytics-api
 maintainers:
   - FN: API Evangelist
     url: https://apievangelist.com
     email: info@apievangelist.com
 aid: youtube
+score: 66
+overlays:
+  - type: API Evangelist Ratings
+    url: /overlays/api-evangelist-ratings.yml
