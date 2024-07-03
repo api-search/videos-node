@@ -5,11 +5,10 @@ description: >-
   users, and playlists. It also provides the ability to manipulate these feeds,
   such as creating new playlists, adding videos as favorites, and sending
   messsages. The API is also able to upload videos.
-image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/apis-json/artisanal/main/apis/youtube.yml
-created: 2023/10/6
-modified: 2023/10/6
-specificationVersion: '0.14'
+created: 2024/04/14
+modified: '2024-07-03'
+specificationVersion: '0.18'
 tags: []
 apis:
   - name: Youtube Data API
@@ -19,10 +18,57 @@ apis:
       identify the different types of resources that you can retrieve using the
       API. The API also supports methods to insert, update, or delete many of
       these resources.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://developers.google.com/youtube/v3
-    baseURL: https://www.googleapis.com/youtube/v3
-    tags: []
+    tags:
+      - Abuse
+      - Reports
+      - Youtube
+      - Activities
+      - Captions
+      - Banners
+      - Channels
+      - Insert
+      - Sections
+      - Comments
+      - Threads
+      - Mark
+      - Spam
+      - Moderation
+      - Sets
+      - Status
+      - Languages
+      - Regions
+      - Broadcasts
+      - Live
+      - Bind
+      - Cuepoint
+      - Transitions
+      - Chat
+      - Messages
+      - Moderators
+      - Streams
+      - Members
+      - Levels
+      - Memberships
+      - Items
+      - Playlist
+      - Playlists
+      - Search
+      - Subscriptions
+      - Events
+      - Super
+      - Tests
+      - Links
+      - Party
+      - Thumbnails
+      - Eo
+      - Reasons
+      - Videos
+      - Categories
+      - Eos
+      - Ratings
+      - Rates
+      - Watermarks
+      - Unset
     properties:
       - type: Documentation
         url: https://developers.google.com/youtube/v3/docs
@@ -34,37 +80,16 @@ apis:
       The YouTube Reporting and YouTube Analytics APIs let you retrieve YouTube
       Analytics data to automate complex reporting tasks, build custom
       dashboards, and much more.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://developers.google.com/youtube/analytics
-    baseURL: https://api.example.com
     tags: []
     properties:
       - type: Documentation
         url: https://developers.google.com/youtube/analytics/reference
       - type: OpenAPI
         url: properties/youtube-analytics-openapi-original.yml
-    aid: youtube:youtube-analytics-api
-common:
-  - type: Bugs
-    url: >-
-      https://issuetracker.google.com/issues/new?component=186600&template=874803
-  - type: Request Feature
-    url: >-
-      https://issuetracker.google.com/issues/new?component=186600&template=874803
-  - type: Issues
-    url: https://issuetracker.google.com/issues?q=componentid:186600
-  - type: TermsofService
-    url: https://developers.google.com/youtube/terms/api-services-terms-of-service
-  - type: Blog
-    url: https://blog.youtube/
 maintainers:
   - FN: API Evangelist
     url: https://apievangelist.com
     email: info@apievangelist.com
-overlays:
-  - type: APIs.io Search
-    url: overlays/apis-io-search.yml
-  - type: API Evangelist Ratings
-    url: overlays/apis-io-search.yml
 aid: youtube
+
 ---
