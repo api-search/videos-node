@@ -6,7 +6,7 @@ description: >-
   messsages. The API is also able to upload videos.
 url: https://raw.githubusercontent.com/apis-json/artisanal/main/apis/youtube.yml
 created: 2024/04/14
-modified: '2024-07-03'
+modified: '2024-07-04'
 specificationVersion: '0.18'
 tags: []
 apis:
