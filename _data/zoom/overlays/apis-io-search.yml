@@ -44,6 +44,7 @@ apis:
       - type: OpenAPI
         url: overlays/zoom-chat--openapi-search.yml
     humanURL: https://developers.zoom.us/docs/api/rest/chat-api/
+    aid: zoom:zoom-chat-api
   - name: Zoom Group API
     description: For managing Zoom groups.
     tags:
@@ -57,6 +58,7 @@ apis:
       - type: OpenAPI
         url: overlays/zoom-group--openapi-search.yml
     humanURL: https://developers.zoom.us/docs/api/
+    aid: zoom:zoom-group-api
   - name: Zoom Device API
     description: >-
       You can access information from Zoom with Zoom Phone APIs to build private
@@ -73,6 +75,7 @@ apis:
       - type: OpenAPI
         url: overlays/zoom-device--openapi-search.yml
     humanURL: https://developers.zoom.us/docs/api/rest/zoom-phone-api/
+    aid: zoom:zoom-device-api
   - name: Zoom Instant Message API
     description: Provides the ability to instant message.
     tags:
@@ -88,6 +91,7 @@ apis:
       - type: OpenAPI
         url: overlays/zoom-im--openapi-search.yml
     humanURL: https://developers.zoom.us/docs/api/
+    aid: zoom:zoom-instant-message-api
   - name: Zoom Account API
     description: >-
       The Zoom Account API lets developers access data related to Accounts,
@@ -109,6 +113,7 @@ apis:
       - type: OpenAPI
         url: overlays/zoom-account--openapi-search.yml
     humanURL: https://developers.zoom.us/docs/api/rest/account/
+    aid: zoom:zoom-account-api
   - name: Zoom Recording API
     description: Manage the recordings made of Zoom calls.
     tags:
@@ -123,6 +128,7 @@ apis:
       - type: OpenAPI
         url: overlays/zoom-recording--openapi-search.yml
     humanURL: https://developers.zoom.us/docs/video-sdk/web/recording/
+    aid: zoom:zoom-recording-api
   - name: Zoom Meeting API
     description: >-
       The Zoom Meeting API lets developers access meeting and webinar data from
@@ -141,6 +147,7 @@ apis:
       - type: OpenAPI
         url: overlays/zoom-meeting--openapi-search.yml
     humanURL: https://developers.zoom.us/docs/api/rest/meeting/
+    aid: zoom:zoom-meeting-api
   - name: Zoom Metrics API
     description: Access and manage all of the metrics associate with operating on Zoom.
     tags:
@@ -160,6 +167,7 @@ apis:
       - type: OpenAPI
         url: overlays/zoom-metrics--openapi-search.yml
     humanURL: https://developers.zoom.us/docs/api/
+    aid: zoom:zoom-metrics-api
   - name: Zoom Recording API
     description: DELETE
     tags: []
@@ -169,6 +177,7 @@ apis:
     overlays:
       - type: OpenAPI
         url: overlays/zoom-recording--openapi-search.yml
+    aid: zoom:zoom-recording-api
   - name: Zoom Report API
     description: Access and manage reports associated with using Zoom.
     tags: []
@@ -182,6 +191,7 @@ apis:
         url: overlays/zoom-report--openapi-search.yml
     humanURL: >-
       https://developers.zoom.us/docs/api/rest/reference/zoom-api/methods/#tag/Reports
+    aid: zoom:zoom-report-api
   - name: Zoom User API
     description: >-
       The Zoom User API lets developers access data related to Contact Groups,
@@ -215,6 +225,7 @@ apis:
       - type: OpenAPI
         url: overlays/zoom-user--openapi-search.yml
     humanURL: https://developers.zoom.us/docs/api/rest/user/
+    aid: zoom:zoom-user-api
   - name: Zoom Webinar API
     description: Provides the ability to manage details of webinars operated via Zoom.
     tags:
@@ -239,6 +250,7 @@ apis:
         url: overlays/zoom-webinar--openapi-search.yml
     humanURL: >-
       https://developers.zoom.us/docs/api/rest/reference/zoom-api/methods/#tag/Webinars
+    aid: zoom:zoom-webinar-api
 maintainers:
   - FN: API Evangelist
     url: http://apievangelist.com
