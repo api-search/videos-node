@@ -4,9 +4,10 @@ description: >-
   make your own.
 url: https://raw.githubusercontent.com/apis-json/artisanal/main/apis/zoom.yml
 created: 2024/04/14
-modified: '2024-07-03'
+modified: '2024-07-04'
 specificationVersion: '0.18'
-tags: []
+tags:
+  - Videos
 apis:
   - name: Zoom Rest API
     description: >-
