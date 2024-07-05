@@ -3,7 +3,7 @@ name: Zoom
 description: >-
   This is a starter APIs.json that you can use to learn the specification and
   make your own.
-url: https://raw.githubusercontent.com/apis-json/artisanal/main/apis/zoom.yml
+url: https://raw.githubusercontent.com/api-search/videos/main/_apis/zoom/apis.md
 created: 2024/04/14
 modified: '2024-07-03'
 specificationVersion: '0.18'
