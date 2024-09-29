@@ -1,4 +1,3 @@
----
 name: Youtube
 description: >-
   The Youtube API provides the ability to retrieve feeds related to videos,
@@ -86,10 +85,9 @@ apis:
         url: https://developers.google.com/youtube/analytics/reference
       - type: OpenAPI
         url: properties/youtube-analytics-openapi-original.yml
+    aid: youtube:youtube-analytics-api
 maintainers:
   - FN: API Evangelist
     url: https://apievangelist.com
     email: info@apievangelist.com
 aid: youtube
-
----
