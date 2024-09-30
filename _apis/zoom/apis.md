@@ -1,3 +1,4 @@
+---
 name: Zoom
 description: >-
   This is a starter APIs.json that you can use to learn the specification and
@@ -255,3 +256,4 @@ maintainers:
     url: http://apievangelist.com
     email: info@apievangelist.com
 aid: zoom
+---
